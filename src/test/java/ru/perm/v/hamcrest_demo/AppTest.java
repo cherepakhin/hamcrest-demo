@@ -1,17 +1,12 @@
 package ru.perm.v.hamcrest_demo;
 
+import org.junit.jupiter.api.Test;
+
 import static org.junit.Assert.assertTrue;
 
-import org.junit.Test;
-
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.*;
-
-public class AppTest
-{
+public class AppTest {
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    public void shouldAnswerWithTrue() {
+        assertTrue(true);
     }
 }
