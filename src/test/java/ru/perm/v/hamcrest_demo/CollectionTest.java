@@ -38,7 +38,6 @@ public class CollectionTest {
     public void givenList_whenCheck_thenPosotiveElements() {
         List<Integer> list = Arrays.asList(5, 2, 4);
         assertThat(list, everyItem(greaterThan(0)));
-
     }
 
     /**
@@ -48,6 +47,14 @@ public class CollectionTest {
     public void givenList_whenCheck_thenHasItem() {
         List<Integer> list = Arrays.asList(5, 2, 4);
         assertThat(list, hasItem(5));
+    }
 
+    /**
+     * Список состоит из элементов 5, 2, 4
+     */
+    @Test
+    public void givenList_whenCheck_thenContainsElements() {
+        List<Integer> list = Arrays.asList(5, 2, 4);
+        assertThat(list, contains(5, 2, 4));
     }
 }
