@@ -20,3 +20,5 @@ Hamcrest помогает писать тесты. Не надо путать е
 mvn clean test
 mvn io.qameta.allure:allure-maven:serve
 ```
+
+![Allure report](doc/img.png)
