@@ -10,3 +10,13 @@ Hamcrest помогает писать тесты. Не надо путать е
 Возвращаемые тексты ошибок тоже скажут больше о проблеме.
 
 [https://sysout.ru/rabota-s-hamcrest/](https://sysout.ru/rabota-s-hamcrest/)
+
+Тот самый Vogella
+[https://www.vogella.com/tutorials/Hamcrest/article.html](https://www.vogella.com/tutorials/Hamcrest/article.html)
+
+### Проведение тестов и просмотр отчета в формате Allure
+
+```shell
+mvn clean test
+mvn io.qameta.allure:allure-maven:serve
+```
