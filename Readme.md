@@ -25,6 +25,6 @@ mvn io.qameta.allure:allure-maven:serve
 
 ![Allure report](doc/img.png)
 
-Вложенность тестов(@Epic, @Feature, @Story, @Step) Allure Reports
+Шпаргалка по вложенности тестов(@Epic, @Feature, @Story, @Step) Allure Reports
 
 ![Вложенность тестов(@Epic, @Feature, @Story, @Step) Allure Reports](doc/hierarchy_of_allure.png)
