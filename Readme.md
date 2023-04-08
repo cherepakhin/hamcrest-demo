@@ -23,8 +23,12 @@ mvn io.qameta.allure:allure-maven:serve
 
 Результаты тестов будут в папке target/allure-results/
 
+### Шпаргалка по аннотациям Allure Reports
+
+Иерархия такая @Epic -> @Feature -> @Story -> @Step
+
 ![Allure report](doc/img.png)
 
-Шпаргалка по вложенности тестов(@Epic, @Feature, @Story, @Step) Allure Reports
+Вложенность тестов
 
 ![Вложенность тестов(@Epic, @Feature, @Story, @Step) Allure Reports](doc/hierarchy_of_allure.png)
