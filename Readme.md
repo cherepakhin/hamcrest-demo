@@ -16,6 +16,8 @@ Hamcrest помогает писать тесты. Не надо путать е
 
 ### Проведение тестов и просмотр отчета в формате Allure
 
+[Allure](https://github.com/allure-framework/allure-maven)
+
 ```shell
 mvn clean test
 mvn io.qameta.allure:allure-maven:serve
