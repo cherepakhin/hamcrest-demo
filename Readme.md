@@ -21,4 +21,6 @@ mvn clean test
 mvn io.qameta.allure:allure-maven:serve
 ```
 
+Результаты тестов будут в папке target/allure-results/
+
 ![Allure report](doc/img.png)
